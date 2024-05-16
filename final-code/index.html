@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Standard meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- App title -->
+    <title>Forest Fires in Nepal</title>
+
+    <!-- Include required files and dependencies -->
+    <link rel='stylesheet' href='./styles.css' />
+    <script src='https://unpkg.com/maplibre-gl@4.2.0/dist/maplibre-gl.js'></script>
+    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@4.2.0/dist/maplibre-gl.css' />
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Add map container -->
+    <div id="map"></div>
+    <!-- Add legend component -->
+    <div id="state-legend" class="legend">
+        <h4>Forest Fires in Nepal (2024-01-1 to 2024-05-14) </h4>
+        <div><span style="background-color: #ece4db"></span>Low (0-50) Confidence</div>
+        <div><span style="background-color: #fd8d3c"></span>Medium (51-69) Confidence</div>
+        <div><span style="background-color: #8c2d04"></span>High (70+) Confidence</div>
+        <h5>Source: Ministry of Forest & Environment</h5>
+    </div>
+</body>
+
+</html>
